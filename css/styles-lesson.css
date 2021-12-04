@@ -1,0 +1,22 @@
+/*0001*/
+a {
+  color: orange;
+  font-size: 24px;
+}
+
+/* 0010 */
+.test-link {
+  color: black;
+  font-size: 30px;
+}
+/* 0011 */
+a.test-link {
+  color: teal;
+}
+.test-link: hover;
+.test-link:focus {
+  color: tomato;
+}
+.test-link:active {
+  color: green;
+}
