@@ -1,0 +1,92 @@
+@import "./base/fonts";
+@import "./components/commons.scss";
+@import "./utils/variables";
+@import "./components/nullstyles.scss";
+
+@import "./components/modal.scss";
+@import "./base/normolize";
+
+.hero {
+  display: block;
+  padding-top: 200px;
+  text-align: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgba(47, 48, 58, 0.8)
+    ),
+    url("../images/Header_moz.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: rgba(47, 48, 58, 0.8);
+}
+.hero-title {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: var(--secondary-text-color);
+}
+
+.feature-list {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.feature-definition {
+  display: flex;
+  flex-direction: column;
+
+  width: 270px;
+}
+.feature-icon-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  height: 120px;
+  background: #f5f4fa;
+  border-radius: 4px;
+}
+.feature-icon {
+  align-items: center;
+  width: 70px;
+  height: 70px;
+  fill: var(--primary-text-color);
+}
+.title {
+  margin-bottom: 10px;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--primary-text-color);
+}
+.title-definition {
+  margin: 0;
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
